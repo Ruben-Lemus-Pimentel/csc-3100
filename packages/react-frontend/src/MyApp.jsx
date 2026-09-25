@@ -29,7 +29,7 @@ function MyApp() {
         }
 
         const updated = characters.filter((character) => {
-          return character.id !== id;
+          return character._id !== id;
         });
 
         setCharacters(updated);
